@@ -1,0 +1,11 @@
+git config --global user-name "Sundeep Kumar"
+git config --global user.email "balachkumar1740@gmail.com"
+touch .getignore
+git init #initialize
+it add .
+git commit -m "initialize commit"
+git status # just to see
+$ ssh-keygen -t ed25519 -C "sundeepkumar1740@gmail.com" #to generate key
+cat /c/Users/ZS-Ent/.ssh/id_ed25519.pub # add this key to your Github account
+git push origin main # to push files in your reposity
+
